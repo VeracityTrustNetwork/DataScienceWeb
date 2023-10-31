@@ -77,7 +77,7 @@ export const Test1 = () => {
     >
       <span className="notion-semantic-string">
         <span>
-          <code className="code">totalVisitTim</code>
+          <code className="code">totalVisitTime</code>
         </span>
         <span>is the total time spent by the user on the web page</span>
       </span>

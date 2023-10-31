@@ -4282,7 +4282,8 @@ h3 .notion-page__icon div {
 }
 
 .super-content-wrapper {
-    flex-grow: 1
+    flex-grow: 1;
+    min-height:80vh;
 }
 
 .super-content {
