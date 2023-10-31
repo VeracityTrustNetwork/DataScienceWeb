@@ -675,7 +675,7 @@ export const Test2 = () => (
 
 );
 
-export const Test3 = ) => (
+export const Test3 = () => (
 <article id="block-exercise-3" className="notion-root">
   <blockquote
     id="block-566a6d82e3d34be6a1e15770227b0662"
