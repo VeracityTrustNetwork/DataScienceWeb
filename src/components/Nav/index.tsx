@@ -56,7 +56,7 @@ export default Nav
 
 
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps = async () => {
   console.log(process.env.NOTION_API_KEY);
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
   const block = 'e2a914f97c1f44ee9e65712b9d1250d6';

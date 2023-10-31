@@ -1,13 +1,11 @@
 import {codes} from './codes.json'
-export type TestDProps = {
-  title?: string,
-}
 
-const copyToClipboard = (i,j)=>{
+
+const copyToClipboard = (i=0,j=0)=>{
   navigator.clipboard.writeText(codes[i][j])
 }
 
-export const Test1 = ({ title = 'NextJS with Chakra-ui Boilerplate' }: TestDProps) => {
+export const Test1 = () => {
   
   return (
   <article id="block-exercise-1" className="notion-root">
@@ -406,7 +404,7 @@ export const Test1 = ({ title = 'NextJS with Chakra-ui Boilerplate' }: TestDProp
 
 )}
 
-export const Test2 = ({ title = 'NextJS with Chakra-ui Boilerplate' }: TestDProps) => (
+export const Test2 = () => (
   <article id="block-exercise-2" className="notion-root">
   <blockquote
     id="block-1c86434ce29f44c5a7f66950f1db508d"
@@ -677,7 +675,7 @@ export const Test2 = ({ title = 'NextJS with Chakra-ui Boilerplate' }: TestDProp
 
 );
 
-export const Test3 = ({ title = 'NextJS with Chakra-ui Boilerplate' }: TestDProps) => (
+export const Test3 = ) => (
 <article id="block-exercise-3" className="notion-root">
   <blockquote
     id="block-566a6d82e3d34be6a1e15770227b0662"
