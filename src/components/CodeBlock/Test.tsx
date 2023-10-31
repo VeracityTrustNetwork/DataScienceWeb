@@ -1,3 +1,4 @@
+import { Link } from '@chakra-ui/layout'
 import {codes} from './codes.json'
 
 
@@ -185,7 +186,7 @@ export const Test1 = () => {
       <span>💭&nbsp;</span>
       <span>
         <strong>
-          1.1 Load the data from Github into a pandas dataframe and check that
+          1.1 Load the data from <Link color='blue.700' href='https://vtndatascience.co.uk/data/Example_Veracity_Data_Anonymised.csv'>here</Link> into a pandas dataframe and check that
           the number of data points and columns are correct.
         </strong>
       </span>
@@ -212,7 +213,7 @@ export const Test1 = () => {
         <span className="token punctuation">.</span>read_csv
         <span className="token punctuation">(</span>
         <span className="token string">
-          'Example_Veracity_Data_Anonymised.csv'
+          'https://vtndatascience.co.uk/data/Example_Veracity_Data_Anonymised.csv'
         </span>
         <span className="token punctuation">)</span>
         {"\n"}data_df<span className="token punctuation">.</span>shape
