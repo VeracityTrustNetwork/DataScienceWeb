@@ -1,7 +1,7 @@
 {
     "codes": {
         "1": [
-            "# Load data into a pandas dataframe\ndata_df = pd.read_csv('Example_Veracity_Data_Anonymised.csv')\ndata_df.shape",
+            "# Load data into a pandas dataframe\ndata_df = pd.read_csv('https://vtndatascience.co.uk/data/Example_Veracity_Data_Anonymised.csv')\ndata_df.shape",
             "for index, row in data_df[:20].iterrows():\n    print(type(row['announcedBot']))",
             "for index, row in data_df.iterrows():\n    if row['announcedBot'] != '0':\n        data_df.at[index, 'announcedBot'] = 1\n        \ndata_df['announcedBot'] = data_df['announcedBot'].astype(int)"
         ],
