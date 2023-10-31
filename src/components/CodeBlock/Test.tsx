@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {codes} from './codes.json'
 export type TestDProps = {
   title?: string,
