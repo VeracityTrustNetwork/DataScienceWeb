@@ -12,6 +12,7 @@ const DarkModeSwitch = () => {
       aria-label="toggle color mode"
       isChecked={isDark}
       onChange={toggleColorMode}
+      zIndex='4'
     />
   )
 }
