@@ -310,7 +310,7 @@ export const Test1 = () => {
               <Link
                 className="notion-link link"
                 target='_blank'
-                href="https://www.w3schools.com/python/python_for_loops.asp"
+                href="https://pythonexamples.org/pandas-dataframe-iterate-rows-iterrows/"
               >
                 here
           </Link>
