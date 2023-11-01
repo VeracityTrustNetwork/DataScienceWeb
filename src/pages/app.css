@@ -1313,15 +1313,18 @@ pre[class*=language-] {
     width: .75rem;
     height: .75rem
 }
-.level-unlock-1 .notion-code pre,.level-unlock-1 .notion-code button{
+.level-unlock-1 .notion-code.custom pre,.level-unlock-1 .notion-code.custom button{
     opacity:0;
     visibility: hidden;
 }
-.level-unlock-2 .notion-code pre,.level-unlock-2 .notion-code button{
+.level-unlock-2 .notion-code.custom pre{
     opacity:1;
     visibility: visible;
 }
-.level-unlock-1 .notion-code::before{
+.level-unlock-2 .notion-code.custom button{
+    visibility: visible;
+}
+.level-unlock-1 .notion-code.custom::before{
     content: 'Code Hidden';
     display: flex;
     justify-content: center;
@@ -1331,7 +1334,7 @@ pre[class*=language-] {
     font-size: 20px;
     font-family: monospace;
 }
-.notion-code {
+.notion-code{
     position: relative;
   
 }

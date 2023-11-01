@@ -30,7 +30,7 @@ const Nav = ({ navs }) => {
           return <Link href={`/exercise/${i?.path}`}><span>Exercise {j + 1}</span></Link>;
         })}
 
-        <Link href={`/future`}><span>Futher Reading</span></Link>
+        <Link href={`/future`}><span>Further Reading</span></Link>
         <Link href={`/about`}><span>About us</span></Link>
       </Flex>
 
